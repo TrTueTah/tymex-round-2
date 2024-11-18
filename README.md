@@ -137,14 +137,29 @@ In Challenge 2, you just need any Java IDE or text editor with Java support, suc
 
 To run the Android application in Challenge 1, follow these steps:
 
-1. Open the project in Android Studio.
-2. You need to add the **API_KEY** and the **BASE_URL** to the *local.properties* to run this Application. Add these variables like this:
+1. Open the project in Android Studio (Open the CurrencyConverter which inside the Challenge1).
+2. You need to add the **API_KEY** and the **BASE_URL** to the *local.properties* to run this Application. Waiting for the project load in the first time you open it. After the amount of time, the project should like this:
 ```
-API_KEY=""
-BASE_URL=""
+CurrencyConverter
+app/
+gradle/
+src/
+build.gradle.kts
+gradle.properties
+gradlew
+gradlew.bat
+local.propertiese
+setting.gradles.kts
 ```
-4. Connect an Android device or start an emulator.
-5. Click on the "Run" button in Android Studio to build and run the application on the connected device or emulator.
+4. Open the *local.properties* and add these variables:
+```
+sdk.dir="YOUR_SDK_DIR" //By default, it is your sdk dir in your computer. So don't adjust this.
+BASE_URL="https://api.exchangeratesapi.io/v1/"
+API_KEY="REPLACE_WITE_YOUR_OWN_API_KEY" // Because this is a test project, and the service is free. So you can use my API_KEY ("6b9100cfb6837bcb62f20616cd839fd4")
+```
+5. Select Build -> Clean Project.
+6. Connect an Android device or start an emulator.
+7. Click on the "Run" button in Android Studio to build and run the application on the connected device or emulator.
 
 ## Running the Java Classes
 
