@@ -5,10 +5,7 @@ This project contains multiple challenges, each with its own set of tasks and so
 
 ## Folder Structure
 ```
-gitattributes
 .gitignore
-.vscode/
-    settings.json
 Challenge 1/CurrencyConverter/app
 src/
 ├
