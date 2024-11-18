@@ -153,7 +153,7 @@ setting.gradles.kts
 ```
 4. Open the *local.properties* and add these variables:
 ```
-sdk.dir="YOUR_SDK_DIR" //By default, it is your sdk dir in your computer. So don't adjust this.
+sdk.dir="YOUR_SDK_DIR" //By default, it is your sdk dir in your computer. So don't change this.
 BASE_URL="https://api.exchangeratesapi.io/v1/"
 API_KEY="REPLACE_WITE_YOUR_OWN_API_KEY" // Because this is a test project, and the service is free. So you can use my API_KEY ("6b9100cfb6837bcb62f20616cd839fd4")
 ```
